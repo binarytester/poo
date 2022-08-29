@@ -1,0 +1,49 @@
+1) Classes são modelos abstratos de onde se originam os objetos. Enquanto a
+classe é uma espécie de projeto de casa, o objeto é essa casa já construída.
+
+2) Os atributos são características dos objetos e métodos são os
+comportamentos desse objeto. Por exemplo, dado um objeto carro, ele
+pode possuir os atributos cor, modelo e ano. E como métodos, pode
+possuir os métodos acelerar e frear.
+
+3) 
+
+Peso = Cálculo de mmc
+
+Tipo de CNH = Autorização para Conduzir automóveis
+
+Tipo Sanguíneo = Sistema para doação de sangue
+
+Habilidade destra = Cadastro de atletas em esporte
+
+Percentual de gordura = Avaliação nutricional
+
+Saldo em conta = Sistema bancário
+
+Etnia = Exame de heteroidentificação
+
+4)
+
+(a) Não. O mais adequado em um ambiente bancário seria o uso do CPF para representar o
+titular da conta de acordo com o processo de abstração.
+
+(b) Sim, pois apesar de ser um comportamento suspeito, há casos em que
+é necessário esse tipo de possibilidade, como em exigências de trabalho. Sendo
+que o elemento a ser usado nesse conjunto de contas seria os blocos
+estruturados de código (funções, módulos...).
+
+5) Aluno, Disciplina, Professor, Curso e Departamento.
+
+6) Game: jogo de plataforma (semelhante ao Mário World)
+
+1. Objeto Jogador
+  Atributos: nível, vida, stamina, tamanho
+  Métodos: andar, correr, pular, bater
+
+2. Objeto Inimigo
+  Atributos: Nome, vida, nível, tamanho
+  Métodos: andar, correr, pular, bater, transformar
+
+3. Objeto plataforma
+  Atributos: Cor, velocidade, tamanho
+  Métodos: Subir, Descer, Quebrar
