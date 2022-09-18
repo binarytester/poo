@@ -1,0 +1,29 @@
+1) Tipagem dinamica se refere a capacidadade da linguagem de definir o tipo da vaiavel
+de acordo com o valor do dado, fazendo a checagem no momento da execução. Por outro lado,
+na tipagem estática o programador precisa definir o tipo da vaiavel explicitamente e a
+checagem é feita no momento da compilação.
+
+2) O principal problema desse tipo de linguagem é a facilidade de espalhar bugs e falhas
+pelo codigo, uma vez que ela acaba "aceitando tudo".
+
+3) Em um programa feito pra realizar uma soma atraves de uma função, uma linguagem tipada
+dinamicamente irá aceitar como argumentos o valor 1 e true, exibindo o valor 2 para soma. Esse
+tipo de comportamento não deveria ser possível, já que apesar de true ser logicamente equivalente 
+ao valor 1, ainda são tipos diferentes (bool e int).
+
+4) A linguagem C é considerada dessa forma porque é possível fazer uma conversão de um tipo
+para outro sem erros de compilação. Exemplo:
+
+int x;
+char y = 'a';
+x = y;
+
+Caso seja exibido a variavel x, irá ser mostrado o caractere "a". Essa conversão não seria
+possível em linguagens fortemente tipadas como o Python.
+
+5) Um caso onde seria adequado o uso do tipo any seria em uma migração de codigo do javascript
+para o typescript, pois evitará erros de execução na conversão do codigo nesse primeiro momento.
+
+6) Não, pois o tipo number ja pressupõe que o valor de entrada será numerico, dessa forma, não
+houve nenhuma conversão entre tipos de dados diferetes, que é um dos comportamentos que caracterizaria
+uma tipagem fraca.
