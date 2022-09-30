@@ -1,0 +1,5 @@
+3) O erro ocorre porque a classe "Radio" possui um construtor parametrizado e o codigo não esta
+inserindo esse valor no momento da criação do objeto. Para consertar, basta inserir esse argumento necessário.
+
+Ex:    let r: Radio = new Radio(2);
+Ex2:   let r: Radio = new Radio(5);
