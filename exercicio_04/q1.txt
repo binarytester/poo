@@ -1,0 +1,2 @@
+1) Sim, há a ausencia do construtor dessa classe para inicializar o objeto. Além disso, falta 
+a palavra reservada "this" antes da variavel para acessar esse atributo da classe Hotel.
