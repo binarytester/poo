@@ -1,0 +1,3 @@
+4) Os prints mostrarão os mesmos resultados já que as 3 variaveis
+estão apontando para o mesmo objeto que c2 apontava no inicio, e o objeto referenciado
+por c1 foi perdido e será excluido futuramente pelo Garbage Collector.

@@ -1,0 +1,4 @@
+10) Creio que ambos dependem do contexto em que forem usadas e não existe um "mais correto", pois
+em um jogo não faz sentido aparecer uma mensagem de alerta por algum erro do jogador, uma vez que
+isso tiraria a imersão daquele game, prejudicando a experiencia do usuario. Já em um sistema de login
+por exemplo, é interessante uma mensagem de erro para evitar mais futuros incomodos para o usuario.
