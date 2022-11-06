@@ -1,0 +1,10 @@
+
+Desconsiderar erro: não dá para saber se ocorreu um
+erro ou não, ja que o possível erro foi ignorado.
+
+Código de erro: quando o método já retorna valores, temos que
+reservar flags para verificar alguma condição ou mudar o tipo de retorno
+do método. Ambos são considerados más práticas.
+
+Mensagem de erro: o código fica limitado à interface
+de texto, eliminando seu uso em uma interface grafica.
