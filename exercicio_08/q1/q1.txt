@@ -1,0 +1,2 @@
+1) Os 3 tipos mais comuns de tratamento de erros são: desconsiderar, colocar
+mensagem de erro ou retornar um código de erro.
